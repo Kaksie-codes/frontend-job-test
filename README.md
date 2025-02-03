@@ -1,4 +1,6 @@
 E-commerce Dashboard
+
+
 This project demonstrates the ability to build a modern e-commerce dashboard using Next.js, TypeScript, Redux (Redux Toolkit), and Tailwind CSS. The dashboard includes features like product management, a paginated product table, shopping cart functionality, and responsive design.
 
 Tech Stack
