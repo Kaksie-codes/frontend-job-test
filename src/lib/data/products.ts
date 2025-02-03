@@ -8,7 +8,7 @@ export type Product = {
     stock: number;
   };
   
-  export const products: readonly Product[] = [
+  export const products: Product[] = [
     {
         id: 1,
         name: "Premium Wireless Headphones",
@@ -16,10 +16,181 @@ export type Product = {
         description: "High-quality wireless headphones with noise cancellation",
         category: "Electronics",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
-        stock: 50
+        stock: 3
     },
     {
         id: 2,
+        name: "Luxury Smartwatch",
+        price: 499.99,
+        description: "A sleek smartwatch with fitness tracking and notifications",
+        category: "Watches",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 15
+    },
+    {
+        id: 3,
+        name: "Designer Leather Jacket",
+        price: 299.99,
+        description: "A premium leather jacket for stylish looks and comfort",
+        category: "Clothing",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 20
+    },
+    {
+        id: 4,
+        name: "Ceramic Dinner Plate Set",
+        price: 79.99,
+        description: "A set of high-quality ceramic dinner plates for elegant dining",
+        category: "Home & Kitchen",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 50
+    },
+    {
+        id: 5,
+        name: "Portable Bluetooth Speaker",
+        price: 129.99,
+        description: "Compact and waterproof Bluetooth speaker with great sound quality",
+        category: "Electronics",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 30
+    },
+    {
+        id: 6,
+        name: "Classic Sunglasses",
+        price: 89.99,
+        description: "Stylish sunglasses with UV protection for outdoor adventures",
+        category: "Accessories",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 25
+    },
+    {
+        id: 7,
+        name: "Smart Thermostat",
+        price: 199.99,
+        description: "A smart thermostat for home automation and energy savings",
+        category: "Home & Kitchen",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 10
+    },
+    {
+        id: 8,
+        name: "Men's Casual T-shirt",
+        price: 24.99,
+        description: "A comfortable and stylish casual T-shirt for everyday wear",
+        category: "Clothing",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 40
+    },
+    // {
+    //     id: 9,
+    //     name: "Wireless Charging Pad",
+    //     price: 49.99,
+    //     description: "A sleek wireless charging pad for smartphones and accessories",
+    //     category: "Electronics",
+    //     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+    //     stock: 35
+    // },
+    {
+        id: 10,
+        name: "Leather Wallet",
+        price: 39.99,
+        description: "A premium leather wallet with multiple card slots and a sleek design",
+        category: "Accessories",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 15
+    },
+    {
+        id: 11,
+        name: "Bluetooth Headphones",
+        price: 79.99,
+        description: "Wireless headphones with superior sound quality and noise isolation",
+        category: "Electronics",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 20
+    },
+    {
+        id: 12,
+        name: "Luxury Handbag",
+        price: 450.00,
+        description: "A designer luxury handbag with a timeless style",
+        category: "Accessories",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 10
+    },
+    {
+        id: 13,
+        name: "Electric Coffee Grinder",
+        price: 69.99,
+        description: "Electric coffee grinder with adjustable grind settings for a fresh brew",
+        category: "Home & Kitchen",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 25
+    },
+    {
+        id: 14,
+        name: "Digital Camera",
+        price: 499.99,
+        description: "High-resolution digital camera for photography enthusiasts",
+        category: "Electronics",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 8
+    },
+    {
+        id: 15,
+        name: "Luxury Perfume",
+        price: 120.00,
+        description: "Premium perfume with floral notes for a long-lasting fragrance",
+        category: "Beauty",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 50
+    },
+    {
+        id: 16,
+        name: "Electric Toothbrush",
+        price: 69.99,
+        description: "Electric toothbrush with multiple modes for a deep clean",
+        category: "Health & Personal Care",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 18
+    },
+    {
+        id: 17,
+        name: "Cotton Bed Sheets Set",
+        price: 49.99,
+        description: "Soft and breathable cotton bed sheets for a comfortable night's sleep",
+        category: "Home & Kitchen",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 30
+    },
+    {
+        id: 18,
+        name: "Sports Sneakers",
+        price: 89.99,
+        description: "Comfortable and durable sneakers perfect for sports and outdoor activities",
+        category: "Footwear",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 22
+    },
+    {
+        id: 19,
+        name: "Portable Power Bank",
+        price: 39.99,
+        description: "Compact power bank to charge your devices on the go",
+        category: "Electronics",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 50
+    },
+    {
+        id: 20,
+        name: "Yoga Mat",
+        price: 29.99,
+        description: "Non-slip yoga mat for comfortable and safe workouts",
+        category: "Fitness",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzIccaTPTbAWBvPQyLgj8p2YG-QtZ56JPtA&s",
+        stock: 40
+    },
+    {
+        id: 21,
         name: "Smart Watch Pro",
         price: 199.99,
         description: "Advanced smartwatch with health tracking features",
@@ -28,7 +199,7 @@ export type Product = {
         stock: 30
     },
     {
-        id: 3,
+        id: 22,
         name: "Gaming Laptop",
         price: 1299.99,
         description: "Powerful gaming laptop with high-end GPU",
@@ -37,7 +208,7 @@ export type Product = {
         stock: 15
     },
     {
-        id: 4,
+        id: 23,
         name: "Mechanical Keyboard",
         price: 99.99,
         description: "RGB backlit mechanical keyboard for gamers",
@@ -46,7 +217,7 @@ export type Product = {
         stock: 40
     },
     {
-        id: 5,
+        id: 24,
         name: "Ergonomic Office Chair",
         price: 249.99,
         description: "Comfortable ergonomic chair with lumbar support",
@@ -55,7 +226,7 @@ export type Product = {
         stock: 25
     },
     {
-        id: 6,
+        id: 25,
         name: "Wireless Mouse",
         price: 49.99,
         description: "Smooth and precise wireless mouse",
@@ -64,7 +235,7 @@ export type Product = {
         stock: 60
     },
     {
-        id: 7,
+        id: 26,
         name: "4K UHD Monitor",
         price: 499.99,
         description: "Ultra HD monitor with stunning visuals",
@@ -73,7 +244,7 @@ export type Product = {
         stock: 20
     },
     {
-        id: 8,
+        id: 27,
         name: "Bluetooth Speaker",
         price: 79.99,
         description: "Portable speaker with deep bass and clear sound",
@@ -82,7 +253,7 @@ export type Product = {
         stock: 35
     },
     {
-        id: 9,
+        id: 28,
         name: "Smartphone X",
         price: 899.99,
         description: "Latest smartphone with advanced camera",
@@ -91,7 +262,7 @@ export type Product = {
         stock: 45
     },
     {
-        id: 10,
+        id: 29,
         name: "Drone 4K",
         price: 599.99,
         description: "4K camera drone with GPS stabilization",
@@ -100,7 +271,7 @@ export type Product = {
         stock: 10
     },
     { 
-        id: 22, 
+        id: 30, 
         name: "Wireless Charging Pad", 
         price: 29.99, 
         description: "Qi-certified fast wireless charging pad", 
@@ -109,7 +280,7 @@ export type Product = {
         stock: 60 
     },
     { 
-        id: 17, 
+        id: 31, 
         name: "Portable Power Bank", 
         price: 39.99, 
         description: "10,000mAh power bank with fast charging", 
@@ -118,14 +289,14 @@ export type Product = {
         stock: 50 
     },
     { 
-        id: 19, 
+        id: 32, 
         name: "Noise Cancelling Earbuds", 
         price: 129.99, 
         description: "Wireless earbuds with active noise cancellation", category: "Electronics", 
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS6pxUq8YE3RSvAAMK-2apwMXqS-XsdiJJ-g&s", 
         stock: 30 },
     { 
-        id: 24, 
+        id: 33, 
         name: "Electric Kettle", 
         price: 49.99, 
         description: "Stainless steel electric kettle with temperature control", 
@@ -134,7 +305,7 @@ export type Product = {
         stock: 30 
     },
     { 
-        id: 26, 
+        id: 34, 
         name: "Robot Vacuum Cleaner", 
         price: 299.99, 
         description: "Automatic vacuum cleaner with smart navigation", 
@@ -143,7 +314,7 @@ export type Product = {
         stock: 18 
     },
     {
-        id: 30,
+        id: 35,
         name: "Air Purifier",
         price: 199.99,
         description: "HEPA air purifier with real-time air quality monitoring",
@@ -153,7 +324,7 @@ export type Product = {
     }
 ];
 
-  export const getProducts = (): readonly Product[] => products;
+  export const getProducts = (): Product[] => products;
   
   export const getProductStats = () => {
     const totalProducts = products.length; // Count total number of products
