@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+E-commerce Dashboard
+This project demonstrates the ability to build a modern e-commerce dashboard using Next.js, TypeScript, Redux (Redux Toolkit), and Tailwind CSS. The dashboard includes features like product management, a paginated product table, shopping cart functionality, and responsive design.
 
-## Getting Started
+Tech Stack
+Next.js 14+
+TypeScript
+Redux (Redux Toolkit)
+Tailwind CSS
+ShadCN for UI components
+Framer-motion for sleek animations
+Git for version control
 
-First, run the development server:
+Features
+1. Product Management Dashboard
+Displays a main dashboard view showing product analytics.
+Includes an interactive widget displaying key metrics (e.g., sales overview, top products).
+Designed to be responsive and user-friendly for a seamless experience.
+2. Product Table
+Displays products in a paginated table with 10 items per page.
+Columns include: Product Image, Name, Price, Stock, Category.
+Implemented sorting functionality for at least two columns.
+3. Shopping Cart Feature
+Add to Cart functionality for products.
+A cart widget shows selected items and updates in real-time.
+The "Add to Cart" button changes to Remove from Cart once an item is added to the cart.
+The cart state persists across page refreshes to ensure a seamless user experience.
+4. State Management
+Uses Redux for state management, with actions and reducers to manage product data and cart states.
+Handles loading and error states appropriately.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Data Requirements
+A mock dataset of at least 36 products is used for this project. Each product contains the following attributes:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
