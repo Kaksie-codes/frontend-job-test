@@ -2,13 +2,13 @@ E-commerce Dashboard
 This project demonstrates the ability to build a modern e-commerce dashboard using Next.js, TypeScript, Redux (Redux Toolkit), and Tailwind CSS. The dashboard includes features like product management, a paginated product table, shopping cart functionality, and responsive design.
 
 Tech Stack
-Next.js 14+
-TypeScript
-Redux (Redux Toolkit)
-Tailwind CSS
-ShadCN for UI components
-Framer-motion for sleek animations
-Git for version control
+1. Next.js 15: A React framework for building fast, scalable web applications with features like server-side rendering and static site generation.
+2. TypeScript: A statically typed superset of JavaScript that adds type safety, improving development productivity and reducing errors.
+3. Redux (Redux Toolkit): A state management library for JavaScript applications, helping to manage and centralize the app's state globally with an efficient and predictable flow.
+4. Tailwind CSS: A utility-first CSS framework that allows rapid styling of elements, ensuring a responsive and customizable UI with minimal custom CSS.
+5. ShadCN: A library of high-quality UI components built on top of Tailwind CSS, providing ready-to-use components like modals, buttons, and dropdowns.
+6. Framer-motion: A powerful library for creating smooth, interactive animations in React applications, enhancing user experience with transitions and effects.
+7. Git: A distributed version control system to track changes in the source code, facilitating collaboration and maintaining a history of the project's progress.
 
 Features
 1. Product Management Dashboard
